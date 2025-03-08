@@ -9,9 +9,13 @@
 //  Definitions des fonctions publiques
 //  ***********************************
 
-// Definir la fonction 'jeu_maj_carburant_joueur' ici
-void jeu_maj_carburant_joueur(int joueur_ligne, int joueur_colonne,int *joueur_carburant,int terrain[][10]) {
 
+void jeu_maj_carburant_joueur(int joueur_ligne, int joueur_colonne,int *joueur_carburant,int terrain[][10]) {
+    // Ajouter le carburant présent sur la case au joueur
+    *joueur_carburant += terrain[joueur_ligne][joueur_colonne];
+
+    // Annuler la quantite de carburant sur la case du joueur
+    terrain[joueur_ligne][joueur_colonne] = 0;
 }
 
 // Definir la fonction 'jeu_deplacer_joueur' ici

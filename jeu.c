@@ -18,15 +18,6 @@ void jeu_maj_carburant_joueur(int joueur_ligne, int joueur_colonne,int *joueur_c
     terrain[joueur_ligne][joueur_colonne] = 0;
 }
 
-/**
- * @brief Deplace le joueur dans une dircetion donnee.
- * @name jeu_deplacer_joueur
- * @param joueur_ligne l'adresse de la ligne ou se trouve le joueur avant le deplacement et qui sera mise a jour
- * @param joueur_colonne l'adresse de la colonne ou se trouve le joueur avant le deplacement et qui sera mise a jour
- * @param direction la direction dans laquelle on veut deplacer le joueur
- * @return true si le deplacement a pu se faire dans les lilmites du terrain, false sinon
- */
-// Definir la fonction 'jeu_deplacer_joueur' ici
 bool jeu_deplacer_joueur(int *joueur_ligne, int *joueur_colonne, t_direction direction) {
     // Sauvegarde des anciennes coordonnées
     int nouvelle_ligne= *joueur_ligne;

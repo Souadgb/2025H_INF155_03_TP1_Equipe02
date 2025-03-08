@@ -1,6 +1,8 @@
 //
 // Created by stephane on 08/01/25.
 //
+#include "dijkstra.h"
+#define NB_LIGNES
 
 //  ****************************
 //  Definitions des types prives
@@ -26,13 +28,15 @@ typedef t_direction t_precedents[NB_LIGNES][NB_COLONNES];
  * @param joueur_colonne la colonne ou se trouve le joueur
  */
 //  Ecrire le prototype de la fonction 'initialiser_couts' ici
+int initialiser_couts(int couts, int joueur_ligne, int joueur_colonne);
 
 /**
  * @brief Initialise toutes les cases a non visitee.
  * @name initialiser_visitees
- * @param visitees le tableau bi-dimensionnel qui indique, pour chaque case, si elle a deja ete visitee ou non.
+ * @param visitees le tableau bi-dimensi onnel qui indique, pour chaque case, si elle a deja ete visitee ou non.
  */
 //  Ecrire le prototype de la fonction 'initialiser_visitees' ici
+int initialiser_visitees( visitees[][]);
 
 /**
  * @brief Indique si une case donnee a deja ete visitee au cours de l'algorithme.
@@ -43,7 +47,7 @@ typedef t_direction t_precedents[NB_LIGNES][NB_COLONNES];
  * @return true si la case a deja ete visitee, false sinon
  */
 //  Ecrire le prototype de la fonction 'est_case_visitee' ici
-
+void est_case_visitee(visitees[][],)
 /**
  * @brief Recherche la case non visitee qui possede le plus petit cout.
  * @name choisir_min_dist_non_visitee

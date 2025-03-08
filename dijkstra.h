@@ -6,6 +6,8 @@
 #define CODE_DIJKSTRA_H
 
 #define NB_CASES_BONUS 4
+#include <stdbool.h>
+
 
 //  ************************************
 //  Declarations des fonctions publiques

@@ -1,6 +1,7 @@
 //
 // Created by stephane on 08/01/25.
 //
+#include "jeu.h"
 
 //  ***********************************
 //  Definitions des fonctions publiques

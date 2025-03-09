@@ -2,7 +2,7 @@
 // Created by stephane on 09/01/25.
 //
 #include "interaction.h"
-
+#include <stdio.h>
 //  ***********************************
 //  Definitions des fonctions publiques
 //  ***********************************

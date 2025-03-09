@@ -71,5 +71,5 @@ void interaction_afficher_victoire(int carburant);
 //  Ecrire le prototype de la fonction 'interaction_verifier_choix_action' ici
 t_action interaction_verifier_choix_action(t_action action, int carburant);
 
-#endif
+
 #endif //CODE_INTERACTION_H
